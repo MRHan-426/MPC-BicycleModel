@@ -11,6 +11,9 @@ clc
 clear
 close all
 % forward Integrates Simulation
-[Y_sim,U_sim,t_total,t_update,Xobs] = forwardIntegrate();
-save('trajectories/sim_result2.mat');
+for i = 1:100
+    [Y_sim,U_sim,t_total,t_update,Xobs] = forwardIntegrate(i);
 
+%     getTrajectoryInfo(Y_sim,U_sim,Xobs,t_update)
+    %save('trajectories/sim_result2.mat');
+end

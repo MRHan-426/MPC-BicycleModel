@@ -205,14 +205,14 @@ for local_i=1:batch
     H=diag([repmat(Q,[1,npred_i+1]),repmat(R,[1,npred_i])]);
     
     func=zeros(nstates*(npred_i+1)+ninputs*npred_i,1);
-    
+    options = optimoptions('quadprog', 'Display', 'off');
     while 1
         % inequality constraints
         [Aineq,bineq]=ineq_cons(A_con,b_con, npred_i,nstates,ninputs);
         horizon_ref = [reshape(Y_ref(:,i:i+npred_i),1,[]), zeros(1, npred_i*ninputs)];
         bineq = bineq - Aineq*horizon_ref';
         % use QP to solve the problem
-        [x,fval,exitflag,output] = quadprog(H,func,Aineq,bineq,Aeq,beq,Lb,Ub);
+        [x,fval,exitflag,output] = quadprog(H,func,Aineq,bineq,Aeq,beq,Lb,Ub,[],options);
         if exitflag == -2
             n = size(A_con, 1);
 %             disp(['reducing constraints to ' num2str(n-1)]);
