@@ -133,8 +133,6 @@ function [Y,U,t_total,t_update,Xobs] = forwardIntegrate(i)
 %     plot(Y_sim(:,1),Y_sim(:,3),'g','linewidth',1.5);
     filename = sprintf('data/figure_%d.png', i);
     print(filename, '-dpng', sprintf('-r%d', 600));
-    clc
-    clear
     close all
 
 end
