@@ -25,9 +25,7 @@ function [Y,U,t_total,t_update,Xobs] = forwardIntegrate(i)
 %             
 % Written by: Jinsun Liu
 % Created: 31 Oct 2021
-    clc
-    clear
-    close all
+
 
     load('TestTrack.mat'); % load test track
 
@@ -135,5 +133,8 @@ function [Y,U,t_total,t_update,Xobs] = forwardIntegrate(i)
 %     plot(Y_sim(:,1),Y_sim(:,3),'g','linewidth',1.5);
     filename = sprintf('data/figure_%d.png', i);
     print(filename, '-dpng', sprintf('-r%d', 300));
+    clc
+    clear
+    close all
 
 end
