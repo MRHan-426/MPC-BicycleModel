@@ -11,7 +11,7 @@ Then, run "simulate.m", it will run for 100 times and save plot under data direc
 ## TODO
 
 
-Work on MPC method.
+- [ ] Work on MPC method.
 
 
-Modify current code.
+- [ ] Modify current code.
