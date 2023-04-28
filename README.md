@@ -39,14 +39,185 @@ execute make_gif.m
 
 ## 2. Result
 + **For task1:**
-
-
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Rank</th>
+      <th style="text-align:center">Percentage of Completion(%)</th>
+      <th style="text-align:center">Time consumption(sec)</th>
+      <th style="text-align:center">Group number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center">1</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">4.8777</td>
+      <td style="text-align:center">7</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">4.9119</td>
+      <td style="text-align:center">9</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">3</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">5.185</td>
+      <td style="text-align:center">12</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">4</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">7.266</td>
+      <td style="text-align:center">6</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">5</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">10.7061</td>
+      <td style="text-align:center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">6</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">16.4615</td>
+      <td style="text-align:center">1</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">7</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">28.9013</td>
+      <td style="text-align:center">11</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">8</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">34.1071</td>
+      <td style="text-align:center">10</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">9</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">49.0447</td>
+      <td style="text-align:center">8</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">10*</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">50.3462</td>
+      <td style="text-align:center">Our Team</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">11</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">68.3962</td>
+      <td style="text-align:center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">12</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">260.4474</td>
+      <td style="text-align:center">5</td>
+    </tr>
+  </tbody>
+</table>
 
 + **For task2:**
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center">Rank</th>
+      <th style="text-align:center">Percentage of Completion(%)</th>    
+      <th style="text-align:center">Average t_score(points)</th>
+      <th style="text-align:center">Group number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center">1</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">168.706</td>
+      <td style="text-align:center">12</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">2*</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">278.608</td>
+      <td style="text-align:center">Our Team</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">3</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">280.08</td>
+      <td style="text-align:center">7</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">4</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">297.528</td>
+      <td style="text-align:center">6</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">5</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">311.648</td>
+      <td style="text-align:center">9</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">6</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">341.856</td>
+      <td style="text-align:center">10</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">7</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">436.214</td>
+      <td style="text-align:center">4</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">8</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">598.408</td>
+      <td style="text-align:center">3</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">9</td>
+      <td style="text-align:center">100</td>
+      <td style="text-align:center">734.988</td>
+      <td style="text-align:center">8</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">10</td>
+      <td style="text-align:center">76.356</td>
+      <td style="text-align:center">-</td>
+      <td style="text-align:center">5</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">11</td>
+      <td style="text-align:center">5.97218</td>
+      <td style="text-align:center">-</td>
+      <td style="text-align:center">11</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">12</td>
+      <td style="text-align:center">0.11138</td>
+      <td style="text-align:center">-</td>
+      <td style="text-align:center">1</td>
+    </tr>
+  </tbody>
+</table>
 
+## 3. Documentation
++ [Report of Ziqi Han](https://github.com/MRHan-426/MPC-BicycleModel/blob/master/doc/report_ziqihan.pdf)
++ [Report of Siyuan Yin](https://github.com/MRHan-426/MPC-BicycleModel/blob/master/doc/report_siyuanyin.pdf)
++ [Report of Qilin He](https://github.com/MRHan-426/MPC-BicycleModel/blob/master/doc/report_qilinhe.pdf)
++ [Report of Yifan Wang](https://github.com/MRHan-426/MPC-BicycleModel/blob/master/doc/report_yifanwang.pdf)
++ [Report of Yuzhou Chen](https://github.com/MRHan-426/MPC-BicycleModel/blob/master/doc/report_yuzhouchen.pdf)
 
-
-## 3. Project Log & Todo List
+## 4. Project Log & Todo List
     
 - [x] 1. Finish writing PID control for part1.
 
